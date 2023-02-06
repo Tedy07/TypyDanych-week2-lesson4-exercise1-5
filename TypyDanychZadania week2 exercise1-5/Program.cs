@@ -57,7 +57,6 @@
             string color;
             double seniority;
 
-
             Console.WriteLine("\nDzień dobry Nowy użytkowniku, podaj następujące dane:");
             Console.Write("imię: ");
             yourName = Console.ReadLine();
@@ -83,7 +82,7 @@
             Console.Write("staż pracy (rok): ");
             seniority = double.Parse(Console.ReadLine());
 
-            Console.WriteLine("\nPodałeś następujące dane: \nimię: {0}, \nnazwisko: {1}, \nnumer telefonu: {2}, \nmail: {3}, \nwzrost: {4}, \nwaga: {5}, \nkolor oczu: {6}, \nstaż pracy: {7}", name, fullName, phoneNumber, mail, height, weight, color, seniority);
+            Console.WriteLine("\nPodałeś następujące dane: \nimię: {0}, \nnazwisko: {1}, \nnumer telefonu: {2}, \nmail: {3}, \nwzrost: {4}, \nwaga: {5}, \nkolor oczu: {6}, \nstaż pracy: {7}", yourName, yourFullName, phoneNumber, mail, height, weight, color, seniority);
             Console.ReadKey();
 
         }
