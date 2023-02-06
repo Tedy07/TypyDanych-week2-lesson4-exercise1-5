@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             // Typy danych week2, lesson 4, exercise 1- 5
-            // Zadanie 1
+            // zadanie 1
 
             string name;
             string fullName;
@@ -16,6 +16,8 @@
 
             Console.WriteLine("Program ten zbiera następujące dane o pracownikach: imię, nazwisko, wiek, płeć, PESEL, numer pracownika");
             Console.ReadKey();
+
+            // zadanie 2 
         }
     }
 }
