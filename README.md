@@ -1,0 +1,1 @@
+# TypyDanychZadania week2 exercise1-5
