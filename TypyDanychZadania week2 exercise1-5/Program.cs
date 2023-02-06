@@ -18,6 +18,21 @@
             Console.ReadKey();
 
             // zadanie 2 
+
+            char first = 'A';
+            char second = 'B';
+            char third = 'C';
+
+            Console.WriteLine($"{third}, {second}, {first}");
+            Console.ReadKey();
+
+
+
+
+
+
+
+
         }
     }
 }
