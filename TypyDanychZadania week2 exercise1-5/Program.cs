@@ -50,7 +50,7 @@
             // zadanie 5
             string yourName;
             string yourFullName;
-            int phoneNumber;
+            string phoneNumber;
             string mail;
             int height;
             double weight;
@@ -65,7 +65,7 @@
             yourFullName = Console.ReadLine();
 
             Console.Write("numer telefonu: ");
-            phoneNumber = int.Parse(Console.ReadLine());
+            phoneNumber = Console.ReadLine();
 
             Console.Write("mail (nazwa@nazwa.pl): ");
             mail = Console.ReadLine();
